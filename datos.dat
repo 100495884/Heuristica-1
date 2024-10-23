@@ -1,0 +1,45 @@
+data;
+
+# Precios de los billetes
+param precio :=
+    'Estandar' 19
+    'Leisure Plus' 49
+    'Business Plus' 69;
+
+# Equipaje permitido por clase (kg)
+param equipaje :=
+    'Estandar' 1
+    'Leisure Plus' 20
+    'Business Plus' 40;
+
+# Capacidad máxima y número de asientos por avión
+param asientos :=
+    'AV1' 90
+    'AV2' 120
+    'AV3' 200
+    'AV4' 150
+    'AV5' 190;
+
+param capacidad :=
+    'AV1' 1700
+    'AV2' 2700
+    'AV3' 1300
+    'AV4' 1700
+    'AV5' 2000;
+
+# Restricciones mínimas de billetes de Leisure Plus y Business Plus
+param min_billetes_leisure :=
+    'AV1' 20
+    'AV2' 20
+    'AV3' 20
+    'AV4' 20
+    'AV5' 20;
+
+param min_billetes_business :=
+    'AV1' 10
+    'AV2' 10
+    'AV3' 10
+    'AV4' 10
+    'AV5' 10;
+
+end;
