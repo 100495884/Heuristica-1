@@ -1,3 +1,5 @@
+data;
+
 # Aviones
 set AVIONES := AV1 AV2 AV3 AV4 AV5;
 
@@ -5,7 +7,10 @@ set AVIONES := AV1 AV2 AV3 AV4 AV5;
 set PISTAS := P1 P2 P3 P4;
 
 # Slots de tiempo
-set SLOTS := 1 2 3 4 5 6 7 8;
+set SLOTS := 1 2 3 4 5 6 7;
+
+#big-M
+param big_M := 999999;
 
 # Hora de llegada y límite de aterrizaje para cada avión (en minutos)
 param hora_llegada :=
@@ -22,6 +27,16 @@ param hora_limite :=
   AV4 615
   AV5 630;
 
+param posible_hora_llegada :=
+    1 540       
+    2 555       
+    3 570      
+    4 585       
+    5 600       
+    6 615     
+    7 630;  
+
+
 # Coste por minuto de retraso
 param coste_retraso :=
   AV1 100
@@ -30,12 +45,11 @@ param coste_retraso :=
   AV4 250
   AV5 200;
 
-# Disponibilidad de cada pista en cada slot
-param disponibilidad: 
-      1   2   3   4   5   6   7   8 :=
-  P1  1   1   0   1   0   1   0   1
-  P2  1   0   1   0   1   1   1   1
-  P3  0   1   1   1   1   0   1   0
-  P4  1   1   0   1   0   1   1   1;
+# Disponibilidad de cada pista en cada slot (1 = libre, 0 = ocupado)
+param disponibilidad: 1 2 3 4 5 6 7 :=
+  P1  0 0 0 0 1 1 0
+  P2  0 0 1 1 0 0 0
+  P3  1 1 1 0 0 1 0
+  P4  1 0 0 0 1 1 0;
 
 end;
