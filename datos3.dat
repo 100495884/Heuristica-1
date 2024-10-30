@@ -1,0 +1,92 @@
+data;
+
+# Conjuntos
+set CLASES := 'Estandar' 'Leisure Plus' 'Business Plus';
+set AVIONES := 'AV1' 'AV2' 'AV3' 'AV4' 'AV5';
+set PISTAS := 'P1' 'P2' 'P3' 'P4';
+set SLOTS := 1 2 3 4 5 6 7;
+
+# Parámetro Big-M
+param big_M := 999999;
+
+# Parámetros de precios y capacidad de cada clase
+param precio := 
+    'Estandar' 19
+    'Leisure Plus' 49
+    'Business Plus' 69;
+
+param equipaje := 
+    'Estandar' 1
+    'Leisure Plus' 20
+    'Business Plus' 40;
+
+# Parámetros de asientos y capacidad de cada avión
+param asientos := 
+    'AV1' 90
+    'AV2' 120
+    'AV3' 200
+    'AV4' 150
+    'AV5' 190;
+
+param capacidad := 
+    'AV1' 1700
+    'AV2' 2700
+    'AV3' 1300
+    'AV4' 1700
+    'AV5' 2000;
+
+# Restricciones mínimas de billetes por avión
+param min_billetes_leisure :=
+    'AV1' 20
+    'AV2' 20
+    'AV3' 20
+    'AV4' 20
+    'AV5' 20;
+
+param min_billetes_business :=
+    'AV1' 10
+    'AV2' 10
+    'AV3' 10
+    'AV4' 10
+    'AV5' 10;
+
+# Datos de aterrizajes y tiempos de los aviones
+param hora_llegada := 
+    'AV1' 550
+    'AV2' 535
+    'AV3' 580
+    'AV4' 595
+    'AV5' 610;
+
+param hora_limite := 
+    'AV1' 615
+    'AV2' 570
+    'AV3' 600
+    'AV4' 615
+    'AV5' 630;
+
+param posible_hora_llegada :=
+    1 540       
+    2 555       
+    3 570      
+    4 585       
+    5 600       
+    6 615     
+    7 630;  
+
+# Coste por minuto de retraso
+param coste_retraso := 
+    'AV1' 100
+    'AV2' 200
+    'AV3' 150
+    'AV4' 250
+    'AV5' 200;
+
+# Disponibilidad de pistas por slot (1 = libre, 0 = ocupado)
+param disponibilidad: 1 2 3 4 5 6 7 :=
+    'P1' 0 0 0 0 1 1 0
+    'P2' 0 0 1 1 0 0 0
+    'P3' 1 1 1 0 0 1 0
+    'P4' 1 0 0 0 1 1 0;
+
+end;

@@ -1,0 +1,1384 @@
+Problem:    modelo3
+Rows:       595
+Columns:    155 (155 integer, 140 binary)
+Non-zeros:  1140
+Status:     INTEGER OPTIMAL
+Objective:  Beneficio_Total = 21690 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Beneficio_Total
+                               21690                             
+     2 Restriccion_Asientos[AV1]
+                                  90                          90 
+     3 Restriccion_Asientos[AV2]
+                                 120                         120 
+     4 Restriccion_Asientos[AV3]
+                                 200                         200 
+     5 Restriccion_Asientos[AV4]
+                                 150                         150 
+     6 Restriccion_Asientos[AV5]
+                                 190                         190 
+     7 Restriccion_Capacidad[AV1]
+                                1699                        1700 
+     8 Restriccion_Capacidad[AV2]
+                                2698                        2700 
+     9 Restriccion_Capacidad[AV3]
+                                1300                        1300 
+    10 Restriccion_Capacidad[AV4]
+                                1700                        1700 
+    11 Restriccion_Capacidad[AV5]
+                                1993                        2000 
+    12 Restriccion_Min_Leisure[AV1]
+                                  58            20               
+    13 Restriccion_Min_Leisure[AV2]
+                                  31            20               
+    14 Restriccion_Min_Leisure[AV3]
+                                  23            20               
+    15 Restriccion_Min_Leisure[AV4]
+                                  20            20               
+    16 Restriccion_Min_Leisure[AV5]
+                                  21            20               
+    17 Restriccion_Min_Business[AV1]
+                                  13            10               
+    18 Restriccion_Min_Business[AV2]
+                                  51            10               
+    19 Restriccion_Min_Business[AV3]
+                                  17            10               
+    20 Restriccion_Min_Business[AV4]
+                                  30            10               
+    21 Restriccion_Min_Business[AV5]
+                                  36            10               
+    22 Restriccion_Estandar_Total
+                                 450           450               
+    23 Unico_Slot_Por_Avion[AV1]
+                                   1             1             = 
+    24 Unico_Slot_Por_Avion[AV2]
+                                   1             1             = 
+    25 Unico_Slot_Por_Avion[AV3]
+                                   1             1             = 
+    26 Unico_Slot_Por_Avion[AV4]
+                                   1             1             = 
+    27 Unico_Slot_Por_Avion[AV5]
+                                   1             1             = 
+    28 Unico_Avion_Por_Slot[P1,1]
+                                   0                           1 
+    29 Unico_Avion_Por_Slot[P1,2]
+                                   0                           1 
+    30 Unico_Avion_Por_Slot[P1,3]
+                                   0                           1 
+    31 Unico_Avion_Por_Slot[P1,4]
+                                   0                           1 
+    32 Unico_Avion_Por_Slot[P1,5]
+                                   1                           1 
+    33 Unico_Avion_Por_Slot[P1,6]
+                                   0                           1 
+    34 Unico_Avion_Por_Slot[P1,7]
+                                   0                           1 
+    35 Unico_Avion_Por_Slot[P2,1]
+                                   0                           1 
+    36 Unico_Avion_Por_Slot[P2,2]
+                                   0                           1 
+    37 Unico_Avion_Por_Slot[P2,3]
+                                   0                           1 
+    38 Unico_Avion_Por_Slot[P2,4]
+                                   1                           1 
+    39 Unico_Avion_Por_Slot[P2,5]
+                                   0                           1 
+    40 Unico_Avion_Por_Slot[P2,6]
+                                   0                           1 
+    41 Unico_Avion_Por_Slot[P2,7]
+                                   0                           1 
+    42 Unico_Avion_Por_Slot[P3,1]
+                                   0                           1 
+    43 Unico_Avion_Por_Slot[P3,2]
+                                   1                           1 
+    44 Unico_Avion_Por_Slot[P3,3]
+                                   0                           1 
+    45 Unico_Avion_Por_Slot[P3,4]
+                                   0                           1 
+    46 Unico_Avion_Por_Slot[P3,5]
+                                   0                           1 
+    47 Unico_Avion_Por_Slot[P3,6]
+                                   0                           1 
+    48 Unico_Avion_Por_Slot[P3,7]
+                                   0                           1 
+    49 Unico_Avion_Por_Slot[P4,1]
+                                   1                           1 
+    50 Unico_Avion_Por_Slot[P4,2]
+                                   0                           1 
+    51 Unico_Avion_Por_Slot[P4,3]
+                                   0                           1 
+    52 Unico_Avion_Por_Slot[P4,4]
+                                   0                           1 
+    53 Unico_Avion_Por_Slot[P4,5]
+                                   0                           1 
+    54 Unico_Avion_Por_Slot[P4,6]
+                                   1                           1 
+    55 Unico_Avion_Por_Slot[P4,7]
+                                   0                           1 
+    56 Slot_Libre[AV1,P1,1]
+                                   0                          -0 
+    57 Slot_Libre[AV1,P1,2]
+                                   0                          -0 
+    58 Slot_Libre[AV1,P1,3]
+                                   0                          -0 
+    59 Slot_Libre[AV1,P1,4]
+                                   0                          -0 
+    60 Slot_Libre[AV1,P1,5]
+                                   0                           1 
+    61 Slot_Libre[AV1,P1,6]
+                                   0                           1 
+    62 Slot_Libre[AV1,P1,7]
+                                   0                          -0 
+    63 Slot_Libre[AV1,P2,1]
+                                   0                          -0 
+    64 Slot_Libre[AV1,P2,2]
+                                   0                          -0 
+    65 Slot_Libre[AV1,P2,3]
+                                   0                           1 
+    66 Slot_Libre[AV1,P2,4]
+                                   0                           1 
+    67 Slot_Libre[AV1,P2,5]
+                                   0                          -0 
+    68 Slot_Libre[AV1,P2,6]
+                                   0                          -0 
+    69 Slot_Libre[AV1,P2,7]
+                                   0                          -0 
+    70 Slot_Libre[AV1,P3,1]
+                                   0                           1 
+    71 Slot_Libre[AV1,P3,2]
+                                   1                           1 
+    72 Slot_Libre[AV1,P3,3]
+                                   0                           1 
+    73 Slot_Libre[AV1,P3,4]
+                                   0                          -0 
+    74 Slot_Libre[AV1,P3,5]
+                                   0                          -0 
+    75 Slot_Libre[AV1,P3,6]
+                                   0                           1 
+    76 Slot_Libre[AV1,P3,7]
+                                   0                          -0 
+    77 Slot_Libre[AV1,P4,1]
+                                   0                           1 
+    78 Slot_Libre[AV1,P4,2]
+                                   0                          -0 
+    79 Slot_Libre[AV1,P4,3]
+                                   0                          -0 
+    80 Slot_Libre[AV1,P4,4]
+                                   0                          -0 
+    81 Slot_Libre[AV1,P4,5]
+                                   0                           1 
+    82 Slot_Libre[AV1,P4,6]
+                                   0                           1 
+    83 Slot_Libre[AV1,P4,7]
+                                   0                          -0 
+    84 Slot_Libre[AV2,P1,1]
+                                   0                          -0 
+    85 Slot_Libre[AV2,P1,2]
+                                   0                          -0 
+    86 Slot_Libre[AV2,P1,3]
+                                   0                          -0 
+    87 Slot_Libre[AV2,P1,4]
+                                   0                          -0 
+    88 Slot_Libre[AV2,P1,5]
+                                   0                           1 
+    89 Slot_Libre[AV2,P1,6]
+                                   0                           1 
+    90 Slot_Libre[AV2,P1,7]
+                                   0                          -0 
+    91 Slot_Libre[AV2,P2,1]
+                                   0                          -0 
+    92 Slot_Libre[AV2,P2,2]
+                                   0                          -0 
+    93 Slot_Libre[AV2,P2,3]
+                                   0                           1 
+    94 Slot_Libre[AV2,P2,4]
+                                   0                           1 
+    95 Slot_Libre[AV2,P2,5]
+                                   0                          -0 
+    96 Slot_Libre[AV2,P2,6]
+                                   0                          -0 
+    97 Slot_Libre[AV2,P2,7]
+                                   0                          -0 
+    98 Slot_Libre[AV2,P3,1]
+                                   0                           1 
+    99 Slot_Libre[AV2,P3,2]
+                                   0                           1 
+   100 Slot_Libre[AV2,P3,3]
+                                   0                           1 
+   101 Slot_Libre[AV2,P3,4]
+                                   0                          -0 
+   102 Slot_Libre[AV2,P3,5]
+                                   0                          -0 
+   103 Slot_Libre[AV2,P3,6]
+                                   0                           1 
+   104 Slot_Libre[AV2,P3,7]
+                                   0                          -0 
+   105 Slot_Libre[AV2,P4,1]
+                                   1                           1 
+   106 Slot_Libre[AV2,P4,2]
+                                   0                          -0 
+   107 Slot_Libre[AV2,P4,3]
+                                   0                          -0 
+   108 Slot_Libre[AV2,P4,4]
+                                   0                          -0 
+   109 Slot_Libre[AV2,P4,5]
+                                   0                           1 
+   110 Slot_Libre[AV2,P4,6]
+                                   0                           1 
+   111 Slot_Libre[AV2,P4,7]
+                                   0                          -0 
+   112 Slot_Libre[AV3,P1,1]
+                                   0                          -0 
+   113 Slot_Libre[AV3,P1,2]
+                                   0                          -0 
+   114 Slot_Libre[AV3,P1,3]
+                                   0                          -0 
+   115 Slot_Libre[AV3,P1,4]
+                                   0                          -0 
+   116 Slot_Libre[AV3,P1,5]
+                                   0                           1 
+   117 Slot_Libre[AV3,P1,6]
+                                   0                           1 
+   118 Slot_Libre[AV3,P1,7]
+                                   0                          -0 
+   119 Slot_Libre[AV3,P2,1]
+                                   0                          -0 
+   120 Slot_Libre[AV3,P2,2]
+                                   0                          -0 
+   121 Slot_Libre[AV3,P2,3]
+                                   0                           1 
+   122 Slot_Libre[AV3,P2,4]
+                                   1                           1 
+   123 Slot_Libre[AV3,P2,5]
+                                   0                          -0 
+   124 Slot_Libre[AV3,P2,6]
+                                   0                          -0 
+   125 Slot_Libre[AV3,P2,7]
+                                   0                          -0 
+   126 Slot_Libre[AV3,P3,1]
+                                   0                           1 
+   127 Slot_Libre[AV3,P3,2]
+                                   0                           1 
+   128 Slot_Libre[AV3,P3,3]
+                                   0                           1 
+   129 Slot_Libre[AV3,P3,4]
+                                   0                          -0 
+   130 Slot_Libre[AV3,P3,5]
+                                   0                          -0 
+   131 Slot_Libre[AV3,P3,6]
+                                   0                           1 
+   132 Slot_Libre[AV3,P3,7]
+                                   0                          -0 
+   133 Slot_Libre[AV3,P4,1]
+                                   0                           1 
+   134 Slot_Libre[AV3,P4,2]
+                                   0                          -0 
+   135 Slot_Libre[AV3,P4,3]
+                                   0                          -0 
+   136 Slot_Libre[AV3,P4,4]
+                                   0                          -0 
+   137 Slot_Libre[AV3,P4,5]
+                                   0                           1 
+   138 Slot_Libre[AV3,P4,6]
+                                   0                           1 
+   139 Slot_Libre[AV3,P4,7]
+                                   0                          -0 
+   140 Slot_Libre[AV4,P1,1]
+                                   0                          -0 
+   141 Slot_Libre[AV4,P1,2]
+                                   0                          -0 
+   142 Slot_Libre[AV4,P1,3]
+                                   0                          -0 
+   143 Slot_Libre[AV4,P1,4]
+                                   0                          -0 
+   144 Slot_Libre[AV4,P1,5]
+                                   1                           1 
+   145 Slot_Libre[AV4,P1,6]
+                                   0                           1 
+   146 Slot_Libre[AV4,P1,7]
+                                   0                          -0 
+   147 Slot_Libre[AV4,P2,1]
+                                   0                          -0 
+   148 Slot_Libre[AV4,P2,2]
+                                   0                          -0 
+   149 Slot_Libre[AV4,P2,3]
+                                   0                           1 
+   150 Slot_Libre[AV4,P2,4]
+                                   0                           1 
+   151 Slot_Libre[AV4,P2,5]
+                                   0                          -0 
+   152 Slot_Libre[AV4,P2,6]
+                                   0                          -0 
+   153 Slot_Libre[AV4,P2,7]
+                                   0                          -0 
+   154 Slot_Libre[AV4,P3,1]
+                                   0                           1 
+   155 Slot_Libre[AV4,P3,2]
+                                   0                           1 
+   156 Slot_Libre[AV4,P3,3]
+                                   0                           1 
+   157 Slot_Libre[AV4,P3,4]
+                                   0                          -0 
+   158 Slot_Libre[AV4,P3,5]
+                                   0                          -0 
+   159 Slot_Libre[AV4,P3,6]
+                                   0                           1 
+   160 Slot_Libre[AV4,P3,7]
+                                   0                          -0 
+   161 Slot_Libre[AV4,P4,1]
+                                   0                           1 
+   162 Slot_Libre[AV4,P4,2]
+                                   0                          -0 
+   163 Slot_Libre[AV4,P4,3]
+                                   0                          -0 
+   164 Slot_Libre[AV4,P4,4]
+                                   0                          -0 
+   165 Slot_Libre[AV4,P4,5]
+                                   0                           1 
+   166 Slot_Libre[AV4,P4,6]
+                                   0                           1 
+   167 Slot_Libre[AV4,P4,7]
+                                   0                          -0 
+   168 Slot_Libre[AV5,P1,1]
+                                   0                          -0 
+   169 Slot_Libre[AV5,P1,2]
+                                   0                          -0 
+   170 Slot_Libre[AV5,P1,3]
+                                   0                          -0 
+   171 Slot_Libre[AV5,P1,4]
+                                   0                          -0 
+   172 Slot_Libre[AV5,P1,5]
+                                   0                           1 
+   173 Slot_Libre[AV5,P1,6]
+                                   0                           1 
+   174 Slot_Libre[AV5,P1,7]
+                                   0                          -0 
+   175 Slot_Libre[AV5,P2,1]
+                                   0                          -0 
+   176 Slot_Libre[AV5,P2,2]
+                                   0                          -0 
+   177 Slot_Libre[AV5,P2,3]
+                                   0                           1 
+   178 Slot_Libre[AV5,P2,4]
+                                   0                           1 
+   179 Slot_Libre[AV5,P2,5]
+                                   0                          -0 
+   180 Slot_Libre[AV5,P2,6]
+                                   0                          -0 
+   181 Slot_Libre[AV5,P2,7]
+                                   0                          -0 
+   182 Slot_Libre[AV5,P3,1]
+                                   0                           1 
+   183 Slot_Libre[AV5,P3,2]
+                                   0                           1 
+   184 Slot_Libre[AV5,P3,3]
+                                   0                           1 
+   185 Slot_Libre[AV5,P3,4]
+                                   0                          -0 
+   186 Slot_Libre[AV5,P3,5]
+                                   0                          -0 
+   187 Slot_Libre[AV5,P3,6]
+                                   0                           1 
+   188 Slot_Libre[AV5,P3,7]
+                                   0                          -0 
+   189 Slot_Libre[AV5,P4,1]
+                                   0                           1 
+   190 Slot_Libre[AV5,P4,2]
+                                   0                          -0 
+   191 Slot_Libre[AV5,P4,3]
+                                   0                          -0 
+   192 Slot_Libre[AV5,P4,4]
+                                   0                          -0 
+   193 Slot_Libre[AV5,P4,5]
+                                   0                           1 
+   194 Slot_Libre[AV5,P4,6]
+                                   1                           1 
+   195 Slot_Libre[AV5,P4,7]
+                                   0                          -0 
+   196 Llegada_Despues_Hora[AV1,P1,1]
+                                   0       -999989               
+   197 Llegada_Despues_Hora[AV1,P1,2]
+                                   0        -1e+06               
+   198 Llegada_Despues_Hora[AV1,P1,3]
+                                   0  -1.00002e+06               
+   199 Llegada_Despues_Hora[AV1,P1,4]
+                                   0  -1.00003e+06               
+   200 Llegada_Despues_Hora[AV1,P1,5]
+                                   0  -1.00005e+06               
+   201 Llegada_Despues_Hora[AV1,P1,6]
+                                   0  -1.00006e+06               
+   202 Llegada_Despues_Hora[AV1,P1,7]
+                                   0  -1.00008e+06               
+   203 Llegada_Despues_Hora[AV1,P2,1]
+                                   0       -999989               
+   204 Llegada_Despues_Hora[AV1,P2,2]
+                                   0        -1e+06               
+   205 Llegada_Despues_Hora[AV1,P2,3]
+                                   0  -1.00002e+06               
+   206 Llegada_Despues_Hora[AV1,P2,4]
+                                   0  -1.00003e+06               
+   207 Llegada_Despues_Hora[AV1,P2,5]
+                                   0  -1.00005e+06               
+   208 Llegada_Despues_Hora[AV1,P2,6]
+                                   0  -1.00006e+06               
+   209 Llegada_Despues_Hora[AV1,P2,7]
+                                   0  -1.00008e+06               
+   210 Llegada_Despues_Hora[AV1,P3,1]
+                                   0       -999989               
+   211 Llegada_Despues_Hora[AV1,P3,2]
+                             -999999        -1e+06               
+   212 Llegada_Despues_Hora[AV1,P3,3]
+                                   0  -1.00002e+06               
+   213 Llegada_Despues_Hora[AV1,P3,4]
+                                   0  -1.00003e+06               
+   214 Llegada_Despues_Hora[AV1,P3,5]
+                                   0  -1.00005e+06               
+   215 Llegada_Despues_Hora[AV1,P3,6]
+                                   0  -1.00006e+06               
+   216 Llegada_Despues_Hora[AV1,P3,7]
+                                   0  -1.00008e+06               
+   217 Llegada_Despues_Hora[AV1,P4,1]
+                                   0       -999989               
+   218 Llegada_Despues_Hora[AV1,P4,2]
+                                   0        -1e+06               
+   219 Llegada_Despues_Hora[AV1,P4,3]
+                                   0  -1.00002e+06               
+   220 Llegada_Despues_Hora[AV1,P4,4]
+                                   0  -1.00003e+06               
+   221 Llegada_Despues_Hora[AV1,P4,5]
+                                   0  -1.00005e+06               
+   222 Llegada_Despues_Hora[AV1,P4,6]
+                                   0  -1.00006e+06               
+   223 Llegada_Despues_Hora[AV1,P4,7]
+                                   0  -1.00008e+06               
+   224 Llegada_Despues_Hora[AV2,P1,1]
+                                   0        -1e+06               
+   225 Llegada_Despues_Hora[AV2,P1,2]
+                                   0  -1.00002e+06               
+   226 Llegada_Despues_Hora[AV2,P1,3]
+                                   0  -1.00003e+06               
+   227 Llegada_Despues_Hora[AV2,P1,4]
+                                   0  -1.00005e+06               
+   228 Llegada_Despues_Hora[AV2,P1,5]
+                                   0  -1.00006e+06               
+   229 Llegada_Despues_Hora[AV2,P1,6]
+                                   0  -1.00008e+06               
+   230 Llegada_Despues_Hora[AV2,P1,7]
+                                   0  -1.00009e+06               
+   231 Llegada_Despues_Hora[AV2,P2,1]
+                                   0        -1e+06               
+   232 Llegada_Despues_Hora[AV2,P2,2]
+                                   0  -1.00002e+06               
+   233 Llegada_Despues_Hora[AV2,P2,3]
+                                   0  -1.00003e+06               
+   234 Llegada_Despues_Hora[AV2,P2,4]
+                                   0  -1.00005e+06               
+   235 Llegada_Despues_Hora[AV2,P2,5]
+                                   0  -1.00006e+06               
+   236 Llegada_Despues_Hora[AV2,P2,6]
+                                   0  -1.00008e+06               
+   237 Llegada_Despues_Hora[AV2,P2,7]
+                                   0  -1.00009e+06               
+   238 Llegada_Despues_Hora[AV2,P3,1]
+                                   0        -1e+06               
+   239 Llegada_Despues_Hora[AV2,P3,2]
+                                   0  -1.00002e+06               
+   240 Llegada_Despues_Hora[AV2,P3,3]
+                                   0  -1.00003e+06               
+   241 Llegada_Despues_Hora[AV2,P3,4]
+                                   0  -1.00005e+06               
+   242 Llegada_Despues_Hora[AV2,P3,5]
+                                   0  -1.00006e+06               
+   243 Llegada_Despues_Hora[AV2,P3,6]
+                                   0  -1.00008e+06               
+   244 Llegada_Despues_Hora[AV2,P3,7]
+                                   0  -1.00009e+06               
+   245 Llegada_Despues_Hora[AV2,P4,1]
+                             -999999        -1e+06               
+   246 Llegada_Despues_Hora[AV2,P4,2]
+                                   0  -1.00002e+06               
+   247 Llegada_Despues_Hora[AV2,P4,3]
+                                   0  -1.00003e+06               
+   248 Llegada_Despues_Hora[AV2,P4,4]
+                                   0  -1.00005e+06               
+   249 Llegada_Despues_Hora[AV2,P4,5]
+                                   0  -1.00006e+06               
+   250 Llegada_Despues_Hora[AV2,P4,6]
+                                   0  -1.00008e+06               
+   251 Llegada_Despues_Hora[AV2,P4,7]
+                                   0  -1.00009e+06               
+   252 Llegada_Despues_Hora[AV3,P1,1]
+                                   0       -999959               
+   253 Llegada_Despues_Hora[AV3,P1,2]
+                                   0       -999974               
+   254 Llegada_Despues_Hora[AV3,P1,3]
+                                   0       -999989               
+   255 Llegada_Despues_Hora[AV3,P1,4]
+                                   0        -1e+06               
+   256 Llegada_Despues_Hora[AV3,P1,5]
+                                   0  -1.00002e+06               
+   257 Llegada_Despues_Hora[AV3,P1,6]
+                                   0  -1.00003e+06               
+   258 Llegada_Despues_Hora[AV3,P1,7]
+                                   0  -1.00005e+06               
+   259 Llegada_Despues_Hora[AV3,P2,1]
+                                   0       -999959               
+   260 Llegada_Despues_Hora[AV3,P2,2]
+                                   0       -999974               
+   261 Llegada_Despues_Hora[AV3,P2,3]
+                                   0       -999989               
+   262 Llegada_Despues_Hora[AV3,P2,4]
+                             -999999        -1e+06               
+   263 Llegada_Despues_Hora[AV3,P2,5]
+                                   0  -1.00002e+06               
+   264 Llegada_Despues_Hora[AV3,P2,6]
+                                   0  -1.00003e+06               
+   265 Llegada_Despues_Hora[AV3,P2,7]
+                                   0  -1.00005e+06               
+   266 Llegada_Despues_Hora[AV3,P3,1]
+                                   0       -999959               
+   267 Llegada_Despues_Hora[AV3,P3,2]
+                                   0       -999974               
+   268 Llegada_Despues_Hora[AV3,P3,3]
+                                   0       -999989               
+   269 Llegada_Despues_Hora[AV3,P3,4]
+                                   0        -1e+06               
+   270 Llegada_Despues_Hora[AV3,P3,5]
+                                   0  -1.00002e+06               
+   271 Llegada_Despues_Hora[AV3,P3,6]
+                                   0  -1.00003e+06               
+   272 Llegada_Despues_Hora[AV3,P3,7]
+                                   0  -1.00005e+06               
+   273 Llegada_Despues_Hora[AV3,P4,1]
+                                   0       -999959               
+   274 Llegada_Despues_Hora[AV3,P4,2]
+                                   0       -999974               
+   275 Llegada_Despues_Hora[AV3,P4,3]
+                                   0       -999989               
+   276 Llegada_Despues_Hora[AV3,P4,4]
+                                   0        -1e+06               
+   277 Llegada_Despues_Hora[AV3,P4,5]
+                                   0  -1.00002e+06               
+   278 Llegada_Despues_Hora[AV3,P4,6]
+                                   0  -1.00003e+06               
+   279 Llegada_Despues_Hora[AV3,P4,7]
+                                   0  -1.00005e+06               
+   280 Llegada_Despues_Hora[AV4,P1,1]
+                                   0       -999944               
+   281 Llegada_Despues_Hora[AV4,P1,2]
+                                   0       -999959               
+   282 Llegada_Despues_Hora[AV4,P1,3]
+                                   0       -999974               
+   283 Llegada_Despues_Hora[AV4,P1,4]
+                                   0       -999989               
+   284 Llegada_Despues_Hora[AV4,P1,5]
+                             -999999        -1e+06               
+   285 Llegada_Despues_Hora[AV4,P1,6]
+                                   0  -1.00002e+06               
+   286 Llegada_Despues_Hora[AV4,P1,7]
+                                   0  -1.00003e+06               
+   287 Llegada_Despues_Hora[AV4,P2,1]
+                                   0       -999944               
+   288 Llegada_Despues_Hora[AV4,P2,2]
+                                   0       -999959               
+   289 Llegada_Despues_Hora[AV4,P2,3]
+                                   0       -999974               
+   290 Llegada_Despues_Hora[AV4,P2,4]
+                                   0       -999989               
+   291 Llegada_Despues_Hora[AV4,P2,5]
+                                   0        -1e+06               
+   292 Llegada_Despues_Hora[AV4,P2,6]
+                                   0  -1.00002e+06               
+   293 Llegada_Despues_Hora[AV4,P2,7]
+                                   0  -1.00003e+06               
+   294 Llegada_Despues_Hora[AV4,P3,1]
+                                   0       -999944               
+   295 Llegada_Despues_Hora[AV4,P3,2]
+                                   0       -999959               
+   296 Llegada_Despues_Hora[AV4,P3,3]
+                                   0       -999974               
+   297 Llegada_Despues_Hora[AV4,P3,4]
+                                   0       -999989               
+   298 Llegada_Despues_Hora[AV4,P3,5]
+                                   0        -1e+06               
+   299 Llegada_Despues_Hora[AV4,P3,6]
+                                   0  -1.00002e+06               
+   300 Llegada_Despues_Hora[AV4,P3,7]
+                                   0  -1.00003e+06               
+   301 Llegada_Despues_Hora[AV4,P4,1]
+                                   0       -999944               
+   302 Llegada_Despues_Hora[AV4,P4,2]
+                                   0       -999959               
+   303 Llegada_Despues_Hora[AV4,P4,3]
+                                   0       -999974               
+   304 Llegada_Despues_Hora[AV4,P4,4]
+                                   0       -999989               
+   305 Llegada_Despues_Hora[AV4,P4,5]
+                                   0        -1e+06               
+   306 Llegada_Despues_Hora[AV4,P4,6]
+                                   0  -1.00002e+06               
+   307 Llegada_Despues_Hora[AV4,P4,7]
+                                   0  -1.00003e+06               
+   308 Llegada_Despues_Hora[AV5,P1,1]
+                                   0       -999929               
+   309 Llegada_Despues_Hora[AV5,P1,2]
+                                   0       -999944               
+   310 Llegada_Despues_Hora[AV5,P1,3]
+                                   0       -999959               
+   311 Llegada_Despues_Hora[AV5,P1,4]
+                                   0       -999974               
+   312 Llegada_Despues_Hora[AV5,P1,5]
+                                   0       -999989               
+   313 Llegada_Despues_Hora[AV5,P1,6]
+                                   0        -1e+06               
+   314 Llegada_Despues_Hora[AV5,P1,7]
+                                   0  -1.00002e+06               
+   315 Llegada_Despues_Hora[AV5,P2,1]
+                                   0       -999929               
+   316 Llegada_Despues_Hora[AV5,P2,2]
+                                   0       -999944               
+   317 Llegada_Despues_Hora[AV5,P2,3]
+                                   0       -999959               
+   318 Llegada_Despues_Hora[AV5,P2,4]
+                                   0       -999974               
+   319 Llegada_Despues_Hora[AV5,P2,5]
+                                   0       -999989               
+   320 Llegada_Despues_Hora[AV5,P2,6]
+                                   0        -1e+06               
+   321 Llegada_Despues_Hora[AV5,P2,7]
+                                   0  -1.00002e+06               
+   322 Llegada_Despues_Hora[AV5,P3,1]
+                                   0       -999929               
+   323 Llegada_Despues_Hora[AV5,P3,2]
+                                   0       -999944               
+   324 Llegada_Despues_Hora[AV5,P3,3]
+                                   0       -999959               
+   325 Llegada_Despues_Hora[AV5,P3,4]
+                                   0       -999974               
+   326 Llegada_Despues_Hora[AV5,P3,5]
+                                   0       -999989               
+   327 Llegada_Despues_Hora[AV5,P3,6]
+                                   0        -1e+06               
+   328 Llegada_Despues_Hora[AV5,P3,7]
+                                   0  -1.00002e+06               
+   329 Llegada_Despues_Hora[AV5,P4,1]
+                                   0       -999929               
+   330 Llegada_Despues_Hora[AV5,P4,2]
+                                   0       -999944               
+   331 Llegada_Despues_Hora[AV5,P4,3]
+                                   0       -999959               
+   332 Llegada_Despues_Hora[AV5,P4,4]
+                                   0       -999974               
+   333 Llegada_Despues_Hora[AV5,P4,5]
+                                   0       -999989               
+   334 Llegada_Despues_Hora[AV5,P4,6]
+                             -999999        -1e+06               
+   335 Llegada_Despues_Hora[AV5,P4,7]
+                                   0  -1.00002e+06               
+   336 Limite_Tiempo[AV1,P1,1]
+                                   0                 1.00007e+06 
+   337 Limite_Tiempo[AV1,P1,2]
+                                   0                 1.00006e+06 
+   338 Limite_Tiempo[AV1,P1,3]
+                                   0                 1.00004e+06 
+   339 Limite_Tiempo[AV1,P1,4]
+                                   0                 1.00003e+06 
+   340 Limite_Tiempo[AV1,P1,5]
+                                   0                 1.00001e+06 
+   341 Limite_Tiempo[AV1,P1,6]
+                                   0                      999999 
+   342 Limite_Tiempo[AV1,P1,7]
+                                   0                      999984 
+   343 Limite_Tiempo[AV1,P2,1]
+                                   0                 1.00007e+06 
+   344 Limite_Tiempo[AV1,P2,2]
+                                   0                 1.00006e+06 
+   345 Limite_Tiempo[AV1,P2,3]
+                                   0                 1.00004e+06 
+   346 Limite_Tiempo[AV1,P2,4]
+                                   0                 1.00003e+06 
+   347 Limite_Tiempo[AV1,P2,5]
+                                   0                 1.00001e+06 
+   348 Limite_Tiempo[AV1,P2,6]
+                                   0                      999999 
+   349 Limite_Tiempo[AV1,P2,7]
+                                   0                      999984 
+   350 Limite_Tiempo[AV1,P3,1]
+                                   0                 1.00007e+06 
+   351 Limite_Tiempo[AV1,P3,2]
+                              999999                 1.00006e+06 
+   352 Limite_Tiempo[AV1,P3,3]
+                                   0                 1.00004e+06 
+   353 Limite_Tiempo[AV1,P3,4]
+                                   0                 1.00003e+06 
+   354 Limite_Tiempo[AV1,P3,5]
+                                   0                 1.00001e+06 
+   355 Limite_Tiempo[AV1,P3,6]
+                                   0                      999999 
+   356 Limite_Tiempo[AV1,P3,7]
+                                   0                      999984 
+   357 Limite_Tiempo[AV1,P4,1]
+                                   0                 1.00007e+06 
+   358 Limite_Tiempo[AV1,P4,2]
+                                   0                 1.00006e+06 
+   359 Limite_Tiempo[AV1,P4,3]
+                                   0                 1.00004e+06 
+   360 Limite_Tiempo[AV1,P4,4]
+                                   0                 1.00003e+06 
+   361 Limite_Tiempo[AV1,P4,5]
+                                   0                 1.00001e+06 
+   362 Limite_Tiempo[AV1,P4,6]
+                                   0                      999999 
+   363 Limite_Tiempo[AV1,P4,7]
+                                   0                      999984 
+   364 Limite_Tiempo[AV2,P1,1]
+                                   0                 1.00003e+06 
+   365 Limite_Tiempo[AV2,P1,2]
+                                   0                 1.00001e+06 
+   366 Limite_Tiempo[AV2,P1,3]
+                                   0                      999999 
+   367 Limite_Tiempo[AV2,P1,4]
+                                   0                      999984 
+   368 Limite_Tiempo[AV2,P1,5]
+                                   0                      999969 
+   369 Limite_Tiempo[AV2,P1,6]
+                                   0                      999954 
+   370 Limite_Tiempo[AV2,P1,7]
+                                   0                      999939 
+   371 Limite_Tiempo[AV2,P2,1]
+                                   0                 1.00003e+06 
+   372 Limite_Tiempo[AV2,P2,2]
+                                   0                 1.00001e+06 
+   373 Limite_Tiempo[AV2,P2,3]
+                                   0                      999999 
+   374 Limite_Tiempo[AV2,P2,4]
+                                   0                      999984 
+   375 Limite_Tiempo[AV2,P2,5]
+                                   0                      999969 
+   376 Limite_Tiempo[AV2,P2,6]
+                                   0                      999954 
+   377 Limite_Tiempo[AV2,P2,7]
+                                   0                      999939 
+   378 Limite_Tiempo[AV2,P3,1]
+                                   0                 1.00003e+06 
+   379 Limite_Tiempo[AV2,P3,2]
+                                   0                 1.00001e+06 
+   380 Limite_Tiempo[AV2,P3,3]
+                                   0                      999999 
+   381 Limite_Tiempo[AV2,P3,4]
+                                   0                      999984 
+   382 Limite_Tiempo[AV2,P3,5]
+                                   0                      999969 
+   383 Limite_Tiempo[AV2,P3,6]
+                                   0                      999954 
+   384 Limite_Tiempo[AV2,P3,7]
+                                   0                      999939 
+   385 Limite_Tiempo[AV2,P4,1]
+                              999999                 1.00003e+06 
+   386 Limite_Tiempo[AV2,P4,2]
+                                   0                 1.00001e+06 
+   387 Limite_Tiempo[AV2,P4,3]
+                                   0                      999999 
+   388 Limite_Tiempo[AV2,P4,4]
+                                   0                      999984 
+   389 Limite_Tiempo[AV2,P4,5]
+                                   0                      999969 
+   390 Limite_Tiempo[AV2,P4,6]
+                                   0                      999954 
+   391 Limite_Tiempo[AV2,P4,7]
+                                   0                      999939 
+   392 Limite_Tiempo[AV3,P1,1]
+                                   0                 1.00006e+06 
+   393 Limite_Tiempo[AV3,P1,2]
+                                   0                 1.00004e+06 
+   394 Limite_Tiempo[AV3,P1,3]
+                                   0                 1.00003e+06 
+   395 Limite_Tiempo[AV3,P1,4]
+                                   0                 1.00001e+06 
+   396 Limite_Tiempo[AV3,P1,5]
+                                   0                      999999 
+   397 Limite_Tiempo[AV3,P1,6]
+                                   0                      999984 
+   398 Limite_Tiempo[AV3,P1,7]
+                                   0                      999969 
+   399 Limite_Tiempo[AV3,P2,1]
+                                   0                 1.00006e+06 
+   400 Limite_Tiempo[AV3,P2,2]
+                                   0                 1.00004e+06 
+   401 Limite_Tiempo[AV3,P2,3]
+                                   0                 1.00003e+06 
+   402 Limite_Tiempo[AV3,P2,4]
+                              999999                 1.00001e+06 
+   403 Limite_Tiempo[AV3,P2,5]
+                                   0                      999999 
+   404 Limite_Tiempo[AV3,P2,6]
+                                   0                      999984 
+   405 Limite_Tiempo[AV3,P2,7]
+                                   0                      999969 
+   406 Limite_Tiempo[AV3,P3,1]
+                                   0                 1.00006e+06 
+   407 Limite_Tiempo[AV3,P3,2]
+                                   0                 1.00004e+06 
+   408 Limite_Tiempo[AV3,P3,3]
+                                   0                 1.00003e+06 
+   409 Limite_Tiempo[AV3,P3,4]
+                                   0                 1.00001e+06 
+   410 Limite_Tiempo[AV3,P3,5]
+                                   0                      999999 
+   411 Limite_Tiempo[AV3,P3,6]
+                                   0                      999984 
+   412 Limite_Tiempo[AV3,P3,7]
+                                   0                      999969 
+   413 Limite_Tiempo[AV3,P4,1]
+                                   0                 1.00006e+06 
+   414 Limite_Tiempo[AV3,P4,2]
+                                   0                 1.00004e+06 
+   415 Limite_Tiempo[AV3,P4,3]
+                                   0                 1.00003e+06 
+   416 Limite_Tiempo[AV3,P4,4]
+                                   0                 1.00001e+06 
+   417 Limite_Tiempo[AV3,P4,5]
+                                   0                      999999 
+   418 Limite_Tiempo[AV3,P4,6]
+                                   0                      999984 
+   419 Limite_Tiempo[AV3,P4,7]
+                                   0                      999969 
+   420 Limite_Tiempo[AV4,P1,1]
+                                   0                 1.00007e+06 
+   421 Limite_Tiempo[AV4,P1,2]
+                                   0                 1.00006e+06 
+   422 Limite_Tiempo[AV4,P1,3]
+                                   0                 1.00004e+06 
+   423 Limite_Tiempo[AV4,P1,4]
+                                   0                 1.00003e+06 
+   424 Limite_Tiempo[AV4,P1,5]
+                              999999                 1.00001e+06 
+   425 Limite_Tiempo[AV4,P1,6]
+                                   0                      999999 
+   426 Limite_Tiempo[AV4,P1,7]
+                                   0                      999984 
+   427 Limite_Tiempo[AV4,P2,1]
+                                   0                 1.00007e+06 
+   428 Limite_Tiempo[AV4,P2,2]
+                                   0                 1.00006e+06 
+   429 Limite_Tiempo[AV4,P2,3]
+                                   0                 1.00004e+06 
+   430 Limite_Tiempo[AV4,P2,4]
+                                   0                 1.00003e+06 
+   431 Limite_Tiempo[AV4,P2,5]
+                                   0                 1.00001e+06 
+   432 Limite_Tiempo[AV4,P2,6]
+                                   0                      999999 
+   433 Limite_Tiempo[AV4,P2,7]
+                                   0                      999984 
+   434 Limite_Tiempo[AV4,P3,1]
+                                   0                 1.00007e+06 
+   435 Limite_Tiempo[AV4,P3,2]
+                                   0                 1.00006e+06 
+   436 Limite_Tiempo[AV4,P3,3]
+                                   0                 1.00004e+06 
+   437 Limite_Tiempo[AV4,P3,4]
+                                   0                 1.00003e+06 
+   438 Limite_Tiempo[AV4,P3,5]
+                                   0                 1.00001e+06 
+   439 Limite_Tiempo[AV4,P3,6]
+                                   0                      999999 
+   440 Limite_Tiempo[AV4,P3,7]
+                                   0                      999984 
+   441 Limite_Tiempo[AV4,P4,1]
+                                   0                 1.00007e+06 
+   442 Limite_Tiempo[AV4,P4,2]
+                                   0                 1.00006e+06 
+   443 Limite_Tiempo[AV4,P4,3]
+                                   0                 1.00004e+06 
+   444 Limite_Tiempo[AV4,P4,4]
+                                   0                 1.00003e+06 
+   445 Limite_Tiempo[AV4,P4,5]
+                                   0                 1.00001e+06 
+   446 Limite_Tiempo[AV4,P4,6]
+                                   0                      999999 
+   447 Limite_Tiempo[AV4,P4,7]
+                                   0                      999984 
+   448 Limite_Tiempo[AV5,P1,1]
+                                   0                 1.00009e+06 
+   449 Limite_Tiempo[AV5,P1,2]
+                                   0                 1.00007e+06 
+   450 Limite_Tiempo[AV5,P1,3]
+                                   0                 1.00006e+06 
+   451 Limite_Tiempo[AV5,P1,4]
+                                   0                 1.00004e+06 
+   452 Limite_Tiempo[AV5,P1,5]
+                                   0                 1.00003e+06 
+   453 Limite_Tiempo[AV5,P1,6]
+                                   0                 1.00001e+06 
+   454 Limite_Tiempo[AV5,P1,7]
+                                   0                      999999 
+   455 Limite_Tiempo[AV5,P2,1]
+                                   0                 1.00009e+06 
+   456 Limite_Tiempo[AV5,P2,2]
+                                   0                 1.00007e+06 
+   457 Limite_Tiempo[AV5,P2,3]
+                                   0                 1.00006e+06 
+   458 Limite_Tiempo[AV5,P2,4]
+                                   0                 1.00004e+06 
+   459 Limite_Tiempo[AV5,P2,5]
+                                   0                 1.00003e+06 
+   460 Limite_Tiempo[AV5,P2,6]
+                                   0                 1.00001e+06 
+   461 Limite_Tiempo[AV5,P2,7]
+                                   0                      999999 
+   462 Limite_Tiempo[AV5,P3,1]
+                                   0                 1.00009e+06 
+   463 Limite_Tiempo[AV5,P3,2]
+                                   0                 1.00007e+06 
+   464 Limite_Tiempo[AV5,P3,3]
+                                   0                 1.00006e+06 
+   465 Limite_Tiempo[AV5,P3,4]
+                                   0                 1.00004e+06 
+   466 Limite_Tiempo[AV5,P3,5]
+                                   0                 1.00003e+06 
+   467 Limite_Tiempo[AV5,P3,6]
+                                   0                 1.00001e+06 
+   468 Limite_Tiempo[AV5,P3,7]
+                                   0                      999999 
+   469 Limite_Tiempo[AV5,P4,1]
+                                   0                 1.00009e+06 
+   470 Limite_Tiempo[AV5,P4,2]
+                                   0                 1.00007e+06 
+   471 Limite_Tiempo[AV5,P4,3]
+                                   0                 1.00006e+06 
+   472 Limite_Tiempo[AV5,P4,4]
+                                   0                 1.00004e+06 
+   473 Limite_Tiempo[AV5,P4,5]
+                                   0                 1.00003e+06 
+   474 Limite_Tiempo[AV5,P4,6]
+                              999999                 1.00001e+06 
+   475 Limite_Tiempo[AV5,P4,7]
+                                   0                      999999 
+   476 No_Slots_Consecutivos[AV1,P1,1]
+                                   0                           1 
+   477 No_Slots_Consecutivos[AV1,P1,2]
+                                   0                           1 
+   478 No_Slots_Consecutivos[AV1,P1,3]
+                                   0                           1 
+   479 No_Slots_Consecutivos[AV1,P1,4]
+                                   0                           1 
+   480 No_Slots_Consecutivos[AV1,P1,5]
+                                   0                           1 
+   481 No_Slots_Consecutivos[AV1,P1,6]
+                                   0                           1 
+   482 No_Slots_Consecutivos[AV1,P2,1]
+                                   0                           1 
+   483 No_Slots_Consecutivos[AV1,P2,2]
+                                   0                           1 
+   484 No_Slots_Consecutivos[AV1,P2,3]
+                                   0                           1 
+   485 No_Slots_Consecutivos[AV1,P2,4]
+                                   0                           1 
+   486 No_Slots_Consecutivos[AV1,P2,5]
+                                   0                           1 
+   487 No_Slots_Consecutivos[AV1,P2,6]
+                                   0                           1 
+   488 No_Slots_Consecutivos[AV1,P3,1]
+                                   1                           1 
+   489 No_Slots_Consecutivos[AV1,P3,2]
+                                   1                           1 
+   490 No_Slots_Consecutivos[AV1,P3,3]
+                                   0                           1 
+   491 No_Slots_Consecutivos[AV1,P3,4]
+                                   0                           1 
+   492 No_Slots_Consecutivos[AV1,P3,5]
+                                   0                           1 
+   493 No_Slots_Consecutivos[AV1,P3,6]
+                                   0                           1 
+   494 No_Slots_Consecutivos[AV1,P4,1]
+                                   0                           1 
+   495 No_Slots_Consecutivos[AV1,P4,2]
+                                   0                           1 
+   496 No_Slots_Consecutivos[AV1,P4,3]
+                                   0                           1 
+   497 No_Slots_Consecutivos[AV1,P4,4]
+                                   0                           1 
+   498 No_Slots_Consecutivos[AV1,P4,5]
+                                   0                           1 
+   499 No_Slots_Consecutivos[AV1,P4,6]
+                                   0                           1 
+   500 No_Slots_Consecutivos[AV2,P1,1]
+                                   0                           1 
+   501 No_Slots_Consecutivos[AV2,P1,2]
+                                   0                           1 
+   502 No_Slots_Consecutivos[AV2,P1,3]
+                                   0                           1 
+   503 No_Slots_Consecutivos[AV2,P1,4]
+                                   0                           1 
+   504 No_Slots_Consecutivos[AV2,P1,5]
+                                   0                           1 
+   505 No_Slots_Consecutivos[AV2,P1,6]
+                                   0                           1 
+   506 No_Slots_Consecutivos[AV2,P2,1]
+                                   0                           1 
+   507 No_Slots_Consecutivos[AV2,P2,2]
+                                   0                           1 
+   508 No_Slots_Consecutivos[AV2,P2,3]
+                                   0                           1 
+   509 No_Slots_Consecutivos[AV2,P2,4]
+                                   0                           1 
+   510 No_Slots_Consecutivos[AV2,P2,5]
+                                   0                           1 
+   511 No_Slots_Consecutivos[AV2,P2,6]
+                                   0                           1 
+   512 No_Slots_Consecutivos[AV2,P3,1]
+                                   0                           1 
+   513 No_Slots_Consecutivos[AV2,P3,2]
+                                   0                           1 
+   514 No_Slots_Consecutivos[AV2,P3,3]
+                                   0                           1 
+   515 No_Slots_Consecutivos[AV2,P3,4]
+                                   0                           1 
+   516 No_Slots_Consecutivos[AV2,P3,5]
+                                   0                           1 
+   517 No_Slots_Consecutivos[AV2,P3,6]
+                                   0                           1 
+   518 No_Slots_Consecutivos[AV2,P4,1]
+                                   1                           1 
+   519 No_Slots_Consecutivos[AV2,P4,2]
+                                   0                           1 
+   520 No_Slots_Consecutivos[AV2,P4,3]
+                                   0                           1 
+   521 No_Slots_Consecutivos[AV2,P4,4]
+                                   0                           1 
+   522 No_Slots_Consecutivos[AV2,P4,5]
+                                   0                           1 
+   523 No_Slots_Consecutivos[AV2,P4,6]
+                                   0                           1 
+   524 No_Slots_Consecutivos[AV3,P1,1]
+                                   0                           1 
+   525 No_Slots_Consecutivos[AV3,P1,2]
+                                   0                           1 
+   526 No_Slots_Consecutivos[AV3,P1,3]
+                                   0                           1 
+   527 No_Slots_Consecutivos[AV3,P1,4]
+                                   0                           1 
+   528 No_Slots_Consecutivos[AV3,P1,5]
+                                   0                           1 
+   529 No_Slots_Consecutivos[AV3,P1,6]
+                                   0                           1 
+   530 No_Slots_Consecutivos[AV3,P2,1]
+                                   0                           1 
+   531 No_Slots_Consecutivos[AV3,P2,2]
+                                   0                           1 
+   532 No_Slots_Consecutivos[AV3,P2,3]
+                                   1                           1 
+   533 No_Slots_Consecutivos[AV3,P2,4]
+                                   1                           1 
+   534 No_Slots_Consecutivos[AV3,P2,5]
+                                   0                           1 
+   535 No_Slots_Consecutivos[AV3,P2,6]
+                                   0                           1 
+   536 No_Slots_Consecutivos[AV3,P3,1]
+                                   0                           1 
+   537 No_Slots_Consecutivos[AV3,P3,2]
+                                   0                           1 
+   538 No_Slots_Consecutivos[AV3,P3,3]
+                                   0                           1 
+   539 No_Slots_Consecutivos[AV3,P3,4]
+                                   0                           1 
+   540 No_Slots_Consecutivos[AV3,P3,5]
+                                   0                           1 
+   541 No_Slots_Consecutivos[AV3,P3,6]
+                                   0                           1 
+   542 No_Slots_Consecutivos[AV3,P4,1]
+                                   0                           1 
+   543 No_Slots_Consecutivos[AV3,P4,2]
+                                   0                           1 
+   544 No_Slots_Consecutivos[AV3,P4,3]
+                                   0                           1 
+   545 No_Slots_Consecutivos[AV3,P4,4]
+                                   0                           1 
+   546 No_Slots_Consecutivos[AV3,P4,5]
+                                   0                           1 
+   547 No_Slots_Consecutivos[AV3,P4,6]
+                                   0                           1 
+   548 No_Slots_Consecutivos[AV4,P1,1]
+                                   0                           1 
+   549 No_Slots_Consecutivos[AV4,P1,2]
+                                   0                           1 
+   550 No_Slots_Consecutivos[AV4,P1,3]
+                                   0                           1 
+   551 No_Slots_Consecutivos[AV4,P1,4]
+                                   1                           1 
+   552 No_Slots_Consecutivos[AV4,P1,5]
+                                   1                           1 
+   553 No_Slots_Consecutivos[AV4,P1,6]
+                                   0                           1 
+   554 No_Slots_Consecutivos[AV4,P2,1]
+                                   0                           1 
+   555 No_Slots_Consecutivos[AV4,P2,2]
+                                   0                           1 
+   556 No_Slots_Consecutivos[AV4,P2,3]
+                                   0                           1 
+   557 No_Slots_Consecutivos[AV4,P2,4]
+                                   0                           1 
+   558 No_Slots_Consecutivos[AV4,P2,5]
+                                   0                           1 
+   559 No_Slots_Consecutivos[AV4,P2,6]
+                                   0                           1 
+   560 No_Slots_Consecutivos[AV4,P3,1]
+                                   0                           1 
+   561 No_Slots_Consecutivos[AV4,P3,2]
+                                   0                           1 
+   562 No_Slots_Consecutivos[AV4,P3,3]
+                                   0                           1 
+   563 No_Slots_Consecutivos[AV4,P3,4]
+                                   0                           1 
+   564 No_Slots_Consecutivos[AV4,P3,5]
+                                   0                           1 
+   565 No_Slots_Consecutivos[AV4,P3,6]
+                                   0                           1 
+   566 No_Slots_Consecutivos[AV4,P4,1]
+                                   0                           1 
+   567 No_Slots_Consecutivos[AV4,P4,2]
+                                   0                           1 
+   568 No_Slots_Consecutivos[AV4,P4,3]
+                                   0                           1 
+   569 No_Slots_Consecutivos[AV4,P4,4]
+                                   0                           1 
+   570 No_Slots_Consecutivos[AV4,P4,5]
+                                   0                           1 
+   571 No_Slots_Consecutivos[AV4,P4,6]
+                                   0                           1 
+   572 No_Slots_Consecutivos[AV5,P1,1]
+                                   0                           1 
+   573 No_Slots_Consecutivos[AV5,P1,2]
+                                   0                           1 
+   574 No_Slots_Consecutivos[AV5,P1,3]
+                                   0                           1 
+   575 No_Slots_Consecutivos[AV5,P1,4]
+                                   0                           1 
+   576 No_Slots_Consecutivos[AV5,P1,5]
+                                   0                           1 
+   577 No_Slots_Consecutivos[AV5,P1,6]
+                                   0                           1 
+   578 No_Slots_Consecutivos[AV5,P2,1]
+                                   0                           1 
+   579 No_Slots_Consecutivos[AV5,P2,2]
+                                   0                           1 
+   580 No_Slots_Consecutivos[AV5,P2,3]
+                                   0                           1 
+   581 No_Slots_Consecutivos[AV5,P2,4]
+                                   0                           1 
+   582 No_Slots_Consecutivos[AV5,P2,5]
+                                   0                           1 
+   583 No_Slots_Consecutivos[AV5,P2,6]
+                                   0                           1 
+   584 No_Slots_Consecutivos[AV5,P3,1]
+                                   0                           1 
+   585 No_Slots_Consecutivos[AV5,P3,2]
+                                   0                           1 
+   586 No_Slots_Consecutivos[AV5,P3,3]
+                                   0                           1 
+   587 No_Slots_Consecutivos[AV5,P3,4]
+                                   0                           1 
+   588 No_Slots_Consecutivos[AV5,P3,5]
+                                   0                           1 
+   589 No_Slots_Consecutivos[AV5,P3,6]
+                                   0                           1 
+   590 No_Slots_Consecutivos[AV5,P4,1]
+                                   0                           1 
+   591 No_Slots_Consecutivos[AV5,P4,2]
+                                   0                           1 
+   592 No_Slots_Consecutivos[AV5,P4,3]
+                                   0                           1 
+   593 No_Slots_Consecutivos[AV5,P4,4]
+                                   0                           1 
+   594 No_Slots_Consecutivos[AV5,P4,5]
+                                   1                           1 
+   595 No_Slots_Consecutivos[AV5,P4,6]
+                                   1                           1 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[Estandar,AV1]
+                    *             19             0               
+     2 x[Estandar,AV2]
+                    *             38             0               
+     3 x[Estandar,AV3]
+                    *            160             0               
+     4 x[Estandar,AV4]
+                    *            100             0               
+     5 x[Estandar,AV5]
+                    *            133             0               
+     6 x['Leisure Plus',AV1]
+                    *             58             0               
+     7 x['Leisure Plus',AV2]
+                    *             31             0               
+     8 x['Leisure Plus',AV3]
+                    *             23             0               
+     9 x['Leisure Plus',AV4]
+                    *             20             0               
+    10 x['Leisure Plus',AV5]
+                    *             21             0               
+    11 x['Business Plus',AV1]
+                    *             13             0               
+    12 x['Business Plus',AV2]
+                    *             51             0               
+    13 x['Business Plus',AV3]
+                    *             17             0               
+    14 x['Business Plus',AV4]
+                    *             30             0               
+    15 x['Business Plus',AV5]
+                    *             36             0               
+    16 b[AV1,P1,1]  *              0             0             1 
+    17 b[AV1,P1,2]  *              0             0             1 
+    18 b[AV1,P1,3]  *              0             0             1 
+    19 b[AV1,P1,4]  *              0             0             1 
+    20 b[AV1,P1,5]  *              0             0             1 
+    21 b[AV1,P1,6]  *              0             0             1 
+    22 b[AV1,P1,7]  *              0             0             1 
+    23 b[AV1,P2,1]  *              0             0             1 
+    24 b[AV1,P2,2]  *              0             0             1 
+    25 b[AV1,P2,3]  *              0             0             1 
+    26 b[AV1,P2,4]  *              0             0             1 
+    27 b[AV1,P2,5]  *              0             0             1 
+    28 b[AV1,P2,6]  *              0             0             1 
+    29 b[AV1,P2,7]  *              0             0             1 
+    30 b[AV1,P3,1]  *              0             0             1 
+    31 b[AV1,P3,2]  *              1             0             1 
+    32 b[AV1,P3,3]  *              0             0             1 
+    33 b[AV1,P3,4]  *              0             0             1 
+    34 b[AV1,P3,5]  *              0             0             1 
+    35 b[AV1,P3,6]  *              0             0             1 
+    36 b[AV1,P3,7]  *              0             0             1 
+    37 b[AV1,P4,1]  *              0             0             1 
+    38 b[AV1,P4,2]  *              0             0             1 
+    39 b[AV1,P4,3]  *              0             0             1 
+    40 b[AV1,P4,4]  *              0             0             1 
+    41 b[AV1,P4,5]  *              0             0             1 
+    42 b[AV1,P4,6]  *              0             0             1 
+    43 b[AV1,P4,7]  *              0             0             1 
+    44 b[AV2,P1,1]  *              0             0             1 
+    45 b[AV2,P1,2]  *              0             0             1 
+    46 b[AV2,P1,3]  *              0             0             1 
+    47 b[AV2,P1,4]  *              0             0             1 
+    48 b[AV2,P1,5]  *              0             0             1 
+    49 b[AV2,P1,6]  *              0             0             1 
+    50 b[AV2,P1,7]  *              0             0             1 
+    51 b[AV2,P2,1]  *              0             0             1 
+    52 b[AV2,P2,2]  *              0             0             1 
+    53 b[AV2,P2,3]  *              0             0             1 
+    54 b[AV2,P2,4]  *              0             0             1 
+    55 b[AV2,P2,5]  *              0             0             1 
+    56 b[AV2,P2,6]  *              0             0             1 
+    57 b[AV2,P2,7]  *              0             0             1 
+    58 b[AV2,P3,1]  *              0             0             1 
+    59 b[AV2,P3,2]  *              0             0             1 
+    60 b[AV2,P3,3]  *              0             0             1 
+    61 b[AV2,P3,4]  *              0             0             1 
+    62 b[AV2,P3,5]  *              0             0             1 
+    63 b[AV2,P3,6]  *              0             0             1 
+    64 b[AV2,P3,7]  *              0             0             1 
+    65 b[AV2,P4,1]  *              1             0             1 
+    66 b[AV2,P4,2]  *              0             0             1 
+    67 b[AV2,P4,3]  *              0             0             1 
+    68 b[AV2,P4,4]  *              0             0             1 
+    69 b[AV2,P4,5]  *              0             0             1 
+    70 b[AV2,P4,6]  *              0             0             1 
+    71 b[AV2,P4,7]  *              0             0             1 
+    72 b[AV3,P1,1]  *              0             0             1 
+    73 b[AV3,P1,2]  *              0             0             1 
+    74 b[AV3,P1,3]  *              0             0             1 
+    75 b[AV3,P1,4]  *              0             0             1 
+    76 b[AV3,P1,5]  *              0             0             1 
+    77 b[AV3,P1,6]  *              0             0             1 
+    78 b[AV3,P1,7]  *              0             0             1 
+    79 b[AV3,P2,1]  *              0             0             1 
+    80 b[AV3,P2,2]  *              0             0             1 
+    81 b[AV3,P2,3]  *              0             0             1 
+    82 b[AV3,P2,4]  *              1             0             1 
+    83 b[AV3,P2,5]  *              0             0             1 
+    84 b[AV3,P2,6]  *              0             0             1 
+    85 b[AV3,P2,7]  *              0             0             1 
+    86 b[AV3,P3,1]  *              0             0             1 
+    87 b[AV3,P3,2]  *              0             0             1 
+    88 b[AV3,P3,3]  *              0             0             1 
+    89 b[AV3,P3,4]  *              0             0             1 
+    90 b[AV3,P3,5]  *              0             0             1 
+    91 b[AV3,P3,6]  *              0             0             1 
+    92 b[AV3,P3,7]  *              0             0             1 
+    93 b[AV3,P4,1]  *              0             0             1 
+    94 b[AV3,P4,2]  *              0             0             1 
+    95 b[AV3,P4,3]  *              0             0             1 
+    96 b[AV3,P4,4]  *              0             0             1 
+    97 b[AV3,P4,5]  *              0             0             1 
+    98 b[AV3,P4,6]  *              0             0             1 
+    99 b[AV3,P4,7]  *              0             0             1 
+   100 b[AV4,P1,1]  *              0             0             1 
+   101 b[AV4,P1,2]  *              0             0             1 
+   102 b[AV4,P1,3]  *              0             0             1 
+   103 b[AV4,P1,4]  *              0             0             1 
+   104 b[AV4,P1,5]  *              1             0             1 
+   105 b[AV4,P1,6]  *              0             0             1 
+   106 b[AV4,P1,7]  *              0             0             1 
+   107 b[AV4,P2,1]  *              0             0             1 
+   108 b[AV4,P2,2]  *              0             0             1 
+   109 b[AV4,P2,3]  *              0             0             1 
+   110 b[AV4,P2,4]  *              0             0             1 
+   111 b[AV4,P2,5]  *              0             0             1 
+   112 b[AV4,P2,6]  *              0             0             1 
+   113 b[AV4,P2,7]  *              0             0             1 
+   114 b[AV4,P3,1]  *              0             0             1 
+   115 b[AV4,P3,2]  *              0             0             1 
+   116 b[AV4,P3,3]  *              0             0             1 
+   117 b[AV4,P3,4]  *              0             0             1 
+   118 b[AV4,P3,5]  *              0             0             1 
+   119 b[AV4,P3,6]  *              0             0             1 
+   120 b[AV4,P3,7]  *              0             0             1 
+   121 b[AV4,P4,1]  *              0             0             1 
+   122 b[AV4,P4,2]  *              0             0             1 
+   123 b[AV4,P4,3]  *              0             0             1 
+   124 b[AV4,P4,4]  *              0             0             1 
+   125 b[AV4,P4,5]  *              0             0             1 
+   126 b[AV4,P4,6]  *              0             0             1 
+   127 b[AV4,P4,7]  *              0             0             1 
+   128 b[AV5,P1,1]  *              0             0             1 
+   129 b[AV5,P1,2]  *              0             0             1 
+   130 b[AV5,P1,3]  *              0             0             1 
+   131 b[AV5,P1,4]  *              0             0             1 
+   132 b[AV5,P1,5]  *              0             0             1 
+   133 b[AV5,P1,6]  *              0             0             1 
+   134 b[AV5,P1,7]  *              0             0             1 
+   135 b[AV5,P2,1]  *              0             0             1 
+   136 b[AV5,P2,2]  *              0             0             1 
+   137 b[AV5,P2,3]  *              0             0             1 
+   138 b[AV5,P2,4]  *              0             0             1 
+   139 b[AV5,P2,5]  *              0             0             1 
+   140 b[AV5,P2,6]  *              0             0             1 
+   141 b[AV5,P2,7]  *              0             0             1 
+   142 b[AV5,P3,1]  *              0             0             1 
+   143 b[AV5,P3,2]  *              0             0             1 
+   144 b[AV5,P3,3]  *              0             0             1 
+   145 b[AV5,P3,4]  *              0             0             1 
+   146 b[AV5,P3,5]  *              0             0             1 
+   147 b[AV5,P3,6]  *              0             0             1 
+   148 b[AV5,P3,7]  *              0             0             1 
+   149 b[AV5,P4,1]  *              0             0             1 
+   150 b[AV5,P4,2]  *              0             0             1 
+   151 b[AV5,P4,3]  *              0             0             1 
+   152 b[AV5,P4,4]  *              0             0             1 
+   153 b[AV5,P4,5]  *              0             0             1 
+   154 b[AV5,P4,6]  *              1             0             1 
+   155 b[AV5,P4,7]  *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
